@@ -53,8 +53,12 @@ function IDADE_ATUAL(DataNscm, DataAtual) {
         
         if(MesNscm > MesAtual){
           ANO = ANO - 1;
-          MES = (11 - (MesNscm - MesAtual));
+          MES = (12 - (MesNscm - MesAtual));
           DIA = ((UltimoDiaMesAtual - DiaNscm) + DiaAtual);
+          if(DIA > 31) {
+            DIA = DIA - 31;
+            
+          }
         }
         else if(MesNscm < MesAtual) {
           MES = MesAtual - MesNscm;

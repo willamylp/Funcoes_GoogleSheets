@@ -56,7 +56,7 @@ function IDADE_ATUAL(DataNscm, DataAtual) {
         DIA = ((UltimoDiaMesAtual - DiaNscm) + DiaAtual);
       }
       
-      IDADE = (ANO + ' ano(s),\n' + MES + ' mese(s),\n' + DIA + ' dia(s)');
+      IDADE = (ANO + ' ano(s),\n' + MES + ' mês(es),\n' + DIA + ' dia(s)');
       
       return IDADE;
     }

@@ -1,3 +1,13 @@
+/* Desenvolvido por: Willamy Domingos*/
+
+/* Função com o objetivo de obter ANO(S), MESE(S) e DIA(S) precisos entre duas datas. */
+
+/* EXEMPLO: */
+// DATA NASCM = 27/11/1996
+// DATA ATUAL = 26/10/2019
+// RESULTADO = 22 ano(s), 10 mês(es) e 30 dia(s)
+
+
 function IDADE_ATUAL(DataNscm, DataAtual) {
   if(DataNscm != '') {
     /* SEPARANDO DATA DE NASCIMENTO */

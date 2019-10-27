@@ -11,7 +11,7 @@
 function IDADE_ATUAL(DataNscm, DataAtual) {
   if(DataNscm != '') {
     if((typeof(DataNscm) != 'object') || (typeof(DataAtual) != 'object')) {
-      return 'ERRO: Valor(es) Incorretos.';
+      return 'ERRO: Valor(es) Incorreto(s)';
     }
     else {
       /* SEPARANDO DATA DE NASCIMENTO */
